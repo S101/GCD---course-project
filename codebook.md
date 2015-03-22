@@ -39,13 +39,17 @@ Note, '-XYZ' is used to denote the occurence of 3 variables per signal type, one
 
 ## Transformations
 The raw signals were used to genearte three sets of variables:
+
 **mean()**: Mean value
+
 **meanFreq()**: Weighted average of the frequency components to obtain a mean frequency
+
 **std()**: Standard deviation
 
 Finally, averages of the mean and standard deviation variables were generated for each test subject while carring out 6 activities.
 
 ## Discription of the 81 fields:
+### reminder, values represent avearges by subject and activity
 1. Subject (factor): The 30 individual test subjects
 2. Activity (charater): The 6 activities assessed, 1 - WALKING, 2 - WALKING_UPSTAIRS, 3 - WALKING_DOWNSTAIRS, 4 - SITTING, 5 - STANDING, 6 - LAYING
 3. tBodyAcc-mean()-X (numeric): Time - body acceleration - measurement of the accelerometer as a mean - X plain
